@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.car_body{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height:330px;
+    background-color: #5b595b;
+    border: 1px solid black;
+    border-radius: 15px; 
+    overflow: hidden;
+}
+.dd_0{
+    text-align: right;
+    color: #ffffff;
+    font-size :60px;
+    margin-right: 20px;
+}
+div[class^=dp]{
+    display: flex;
+    font-size:18px;
+    color:white;
+    height:50px;
+    flex-grow: 1;
+    
+}
+
+div[class^=dp] div{
+   display: flex;
+   border:0.1px solid #5b595b;
+   flex-grow:1;
+   justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width:250px;
+}
+div[class^=dp_1] div{
+    background-color: #6b696b;
+
+}
+.gray{
+    background-color: #838283;
+}
+
+.orange{
+    background-color: #f89f0c !important;
+
+}

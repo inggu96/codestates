@@ -1,0 +1,32 @@
+
+body{
+    height: 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:531px;
+    height:120px;
+    background-color: #ffffff;
+}
+.main{
+    font-size : 16px;
+    font-weight: 800;
+    color:#1F2D3D;
+}
+img{
+    float : left;
+    margin:23px;
+}
+.sub_01{
+    font-size: 14px;
+    color: #AFB3B9;
+}
+
+.sub_02{
+    font-size: 15px;
+    color:#79818B;
+}
